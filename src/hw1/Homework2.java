@@ -10,13 +10,13 @@ public class Homework2 {
 		
 		//第二題用for迴圈
 		int d = 1;
-		for (int c = 1; c <= 10; c++) {
+		for (int c = 2; c <= 10; c++) {
 			d *= c;
 		}
 		System.out.println("For連乘積=" + d);
 
 		// 第三題用while迴圈
-		int e = 1;
+		int e = 2;
 		int f = 1;
 		while (e <= 10) {
 			f *= e;
@@ -102,11 +102,14 @@ public class Homework2 {
 				}
 				
 				System.out.println();
-				break;
+//				break;
 				
-			}
-		
-		    }	
+			}	
+			
+
+
+		}
+		 
 			
 			
 		

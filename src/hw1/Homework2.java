@@ -51,64 +51,21 @@ public class Homework2 {
 			}System.out.println();
 		}System.out.println("===============我是分隔線=====================");
 		//第七題
-		for(int n=1;n<=6;n++) {
-
-			switch(n) {
-			case 1:
-				System.out.println("A");
-				break;
+		int i,j;	
+		int k=65;
+		for(i=1;i<=6;i++) {
+			for(j=1;j<=i;j++) {
+				System.out.print((char)k);
+			}
+			System.out.println();
+			k++;
+		}
 				
-			case 2:
-				int t=2;
-				while(t>0) {
-					t--;
-					System.out.print("B");
-				}
-				System.out.println();
-				break;
 				
-			case 3:
-				int g=3;
-				while(g>0) {
-					g--;
-					System.out.print("C");
-				}
-				System.out.println();
-				break;
-				
-			case 4:	
-				int h=4;
-				while(h>0) {
-					h--;
-					System.out.print("D");
-				}
-				System.out.println();
-				break;
-				
-			case 5:
-				int u=5;
-				while(u>0) {
-					u--;
-					System.out.print("E");
-				}
-				System.out.println();
-				break;
-				
-			case 6:
-				int k=6;
-				while(k>0) {
-					k--;
-					System.out.print("F");
-				}
-				
-				System.out.println();
-//				break;
-				
-			}	
 			
 
 
-		}
+		
 		 
 			
 			

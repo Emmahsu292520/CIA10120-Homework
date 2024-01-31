@@ -1,9 +1,8 @@
-package hw1;
+package hw3;
 
 import java.util.Scanner;
 
-public class HomeWork3 {
-	
+public class TrIangle {
 	public static void main(String []args) {
 		Scanner sc = new Scanner(System.in);
 //		System.out.println("請輸入 :三角形第一個邊的邊長");
@@ -31,8 +30,7 @@ public class HomeWork3 {
 					||Math.pow(side[0], 2)+Math.pow(side[2], 2)==Math.pow(side[1], 2)){
 						System.out.println("直角三角形");
 				}
-			else if (side[0] + side[1] >= side[2] && side[1] + side[2] >= side[0] && 
-					side[0] + side[2] >=side[1]) {
+			else if ( side[0]!=side[1]&&side[1]!=side[2]&&side[2]!=side[0]) {
 				System.out.println("其他三角形");
 			}
 	
@@ -43,3 +41,5 @@ public class HomeWork3 {
 	}
 
 }
+
+

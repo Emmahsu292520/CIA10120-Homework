@@ -2,7 +2,7 @@ package hw3;
 
 import java.util.Scanner;
 
-public class traingleTest {
+public class TraingleTest {
 	public static void main(String []args) {
 		Scanner sc = new Scanner(System.in);
 

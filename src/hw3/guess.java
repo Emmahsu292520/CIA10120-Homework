@@ -2,7 +2,7 @@ package hw3;
 
 import java.util.Scanner;
 
-public class guess {
+public class Guess {
 	public static void main (String []args) {
 		Scanner sc= new Scanner(System.in);
 		System.out.println("輸入數字猜猜看");

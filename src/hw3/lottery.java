@@ -2,7 +2,7 @@ package hw3;
 
 import java.util.Scanner;
 
-public class lottery {
+public class Lottery {
 	public static void main (String []args) {
 		Scanner sc = new Scanner(System.in);//ctrl+shift+o
 		System.out.println("請輸入1~9討厭的數字");

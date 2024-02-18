@@ -16,8 +16,8 @@ public class CalTest {
 			Calculator a = new Calculator();
 			System.out.println("x的y次方回傳結果是"+a.powerXy(xx, yy));
 		}catch(CalException zero) {
-			zero.printStackTrace();//如果輸入的 x 或 y 不是整數，程式將拋出 InputMismatchException
-		}catch(InputMismatchException wrong) {
+			zero.printStackTrace();
+		}catch(InputMismatchException wrong) {//如果輸入的 x 或 y 不是整數，程式將拋出 InputMismatchException
 			System.out.println("格式不正確");
 		}finally {
 			sc.close();

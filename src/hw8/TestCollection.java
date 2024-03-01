@@ -23,7 +23,7 @@ public class TestCollection {
 		
 		
 		// 使用Iterator
-		Iterator it = list.iterator();
+		Iterator<Object> it = list.iterator();
 		while(it.hasNext()) {
 			System.out.println(it.next());
 		}

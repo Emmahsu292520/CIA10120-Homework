@@ -24,6 +24,10 @@ public class AnimalRead {
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
+			finally {
+				ois.close();
+				fis.close();
+			}
 		
 	}
 

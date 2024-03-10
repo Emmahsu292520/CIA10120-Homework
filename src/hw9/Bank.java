@@ -32,14 +32,13 @@ class Bank {
 			}
 		}
 		
-		balance -= money ;
-		System.out.println("熊大領了"+money+"，帳戶共有:"+balance);
-		
-		
 		if(balance <= 2000) {
 			System.out.println("熊大看到餘額在2000以下，要求匯款");
 			notify();		
 		}
+		
+		balance -= money ;
+		System.out.println("熊大領了"+money+"，帳戶共有:"+balance);
 		
 		
 	}
